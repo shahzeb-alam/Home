@@ -49,7 +49,7 @@
     transform: translateY(100%);
   }
   nav li.active {
-    background-color: #151515;
+    background-color: #1b1b1b;
     color: #efefef;
   }
   nav li.active::after {
