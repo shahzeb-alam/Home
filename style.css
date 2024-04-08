@@ -48,7 +48,7 @@
     transform: translateY(100%);
   }
   nav li.active {
-    background-color: #151515;
+    background-color: #252525;
     color: #efefef;
   }
   nav li.active::after {
