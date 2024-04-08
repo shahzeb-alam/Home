@@ -127,6 +127,7 @@
     background-color: #1b1b1b;
     height: 100vh;
     display: flex;
+     flex-wrap: wrap;
   }
   section .title {
     max-width: 60%;
@@ -183,7 +184,7 @@ section .subtitle span:last-child {
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
   }
-  section .title span a::after {
+  section .title span a::after, section .subtitle span a::after {
     content: "";
     height: 2px;
     background-color: #f7ca18;
@@ -321,3 +322,9 @@ section .subtitle span:last-child {
       width: 30px;
     }
   }
+section .content {
+    padding: 0 30px;
+    color: #fff;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
