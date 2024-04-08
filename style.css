@@ -137,6 +137,13 @@ html {
     overflow: hidden;
     padding-bottom: 10px;
   }
+section .subtitle {
+    max-width: 60%;
+    width: 100%;
+    margin: 30px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
   section .title span {
     display: inline-block;
     font-size: 5vw;
@@ -148,16 +155,31 @@ html {
     font-weight: 600;
     letter-spacing: 0.25vw;
   }
+section .subtitle span {
+    display: inline-block;
+    font-size: 4vw;
+    color: #efefef;
+    width: 100%;
+    text-transform: uppercase;
+    transform: translateX(-100%);
+    animation: byBottom 1s ease both;
+    font-weight: 600;
+    letter-spacing: 0.25vw;
+}
   section .title span:last-child {
     font-size: 1rem;
     animation: byBottom 1s 0.25s ease both;
   }
+section .subtitle span:last-child {
+    font-size: 1rem;
+    animation: byBottom 1s 0.25s ease both;
+}
   section .title span a {
     position: relative;
     display: inline-block;
     margin-left: 0.5rem;
     text-decoration: none;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#f00, #ff8b00);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
   }
