@@ -174,7 +174,7 @@ section .subtitle span:last-child {
     font-size: 1rem;
     animation: byRight 1s 0.25s ease both;
 }
-  section .title span a {
+  section .title span a, section .subtitle span a {
     position: relative;
     display: inline-block;
     margin-left: 0.5rem;
