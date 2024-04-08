@@ -162,7 +162,7 @@ section .subtitle span {
     width: 100%;
     text-transform: uppercase;
     transform: translateX(-100%);
-    animation: byBottom 1s ease both;
+    animation: byRight 1s ease both;
     font-weight: 600;
     letter-spacing: 0.25vw;
 }
@@ -172,7 +172,7 @@ section .subtitle span {
   }
 section .subtitle span:last-child {
     font-size: 1rem;
-    animation: byBottom 1s 0.25s ease both;
+    animation: byRight 1s 0.25s ease both;
 }
   section .title span a {
     position: relative;
@@ -255,6 +255,38 @@ section .subtitle span:last-child {
     }
     100% {
       transform: translateY(0);
+    }
+  }
+@-moz-keyframes byRight {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @-webkit-keyframes byRight {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @-o-keyframes byRight {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes byRight {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0);
     }
   }
   @-moz-keyframes linkAfter {
