@@ -157,7 +157,9 @@ html {
     display: inline-block;
     margin-left: 0.5rem;
     text-decoration: none;
-    color: #f7ca18;
+    background: -webkit-linear-gradient(#eee, #333);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
   }
   section .title span a::after {
     content: "";
