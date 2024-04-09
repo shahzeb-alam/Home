@@ -327,11 +327,11 @@ section .content {
     padding: 0 10px;
     color: #fff;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5;
     text-align: justify;
-    border: 1px solid #f7ca18;
+    border: 2px solid #f7ca18;
     border-radius: 15px;
     transform: translateY(-100px);
 }
