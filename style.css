@@ -339,3 +339,97 @@ section .content {
     border-radius: 15px;
     transform: translateY(-100px);
 }
+/*Skills Content*/
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    height: fit-content;
+    transform: translateY(-35px);
+}
+.box {
+    background: transparent;
+    width: 240px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.box .percent {
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box .percent svg
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box .percent svg circle {
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box .percent svg circle:nth-child(1) {
+  stroke-dashoffset:0;
+  stroke:#999;
+}
+.box .percent svg circle:nth-child(2) {
+  stroke:#f7ca18;
+  animation: progress 2s ease-out;
+}
+.box .percent .svg1 circle:nth-child(2) {
+  stroke-dashoffset:calc(440 - (440 * 80) / 100);
+}
+.box .percent .svg2 circle:nth-child(2) {
+  stroke-dashoffset:calc(440 - (440 * 90) / 100);
+}
+.box .percent .svg3 circle:nth-child(2) {
+  stroke-dashoffset:calc(440 - (440 * 60) / 100);
+}
+.box .percent .svg4 circle:nth-child(2) {
+  stroke-dashoffset:calc(440 - (440 * 70) / 100);
+}
+.box .percent .svg5 circle:nth-child(2) {
+  stroke-dashoffset:calc(440 - (440 * 50) / 100);
+}
+
+  @keyframes progress {
+      0% {stroke-dashoffset:calc(440 - (440 * 10) / 100);}
+      80% {stroke-dashoffset:calc(440 - (440 * 100) / 100);}
+  }
+
+.box .percent .num {
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  color:#e3e3e3;
+}
+.box .percent .num h2 {
+  font-size:48px;
+}
+.box .percent .num h2 span {
+  font-size:24px;
+}
+.box .text {
+  padding 10px 0 0;
+  color:#999;
+  font-size: 20px;
+  font-weight:700;
+  letter-spacing:1px;
+}
