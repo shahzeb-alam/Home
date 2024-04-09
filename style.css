@@ -323,8 +323,15 @@ section .subtitle span:last-child {
     }
   }
 section .content {
-    padding: 0 30px;
+    margin: 0 20px;
+    padding: 0 10px;
     color: #fff;
-    font-family: cursive;
+    font-family: monospace;
+    font-size: 15px;
     letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: justify;
+    border: 1px solid #f7ca18;
+    border-radius: 15px;
+    transform: translateY(-100px);
 }
