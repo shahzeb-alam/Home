@@ -327,7 +327,7 @@ section .subtitle span {
 section .content {
     width: 100vw;
     min-height: 25vh;
-    margin: 0 20px;
+    margin: 20px;
     padding: 10px;
     color: #fff;
     font-family: monospace;
