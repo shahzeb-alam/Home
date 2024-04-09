@@ -15,7 +15,7 @@
 })(jQuery);
 // set up text to print, each item in array is new line
 var aText = new Array(
-"If you’re just now becoming familiar with what a gradient is, we’ll paint the picture for you before we dive into the tougher stuff. A gradient is a progression of colors with a starting and stopping point – so, a linear gradient starts with one color (like a red) and gradually transitions in a straight line to another color (like a blue). Like we said in our linear-gradient article, think about sunsets as the best example of a linear gradient and how each color progresses beautifully and seamlessly into the next."
+"Hello! I'm Shahzeb Alam, a seasoned Web Designer and WordPress Developer with a passion for crafting engaging digital experiences. With a solid background in SEO, Graphic Designing, and Microsoft Office, I bring a versatile skill set to every project. My journey began during my graduation, and over the past 4 years, I've honed my expertise, spending 3 years as a successful Freelancer before transitioning to the corporate sector and delivered more than 50 successful projects to my clients. Now based in Noida, I continue to thrive in the dynamic world of web design and development, delivering innovative solutions that exceed expectations. Let's collaborate and bring your vision to life!"
 );
 var iSpeed = 50; // time delay of print out
 var iIndex = 0; // start printing array at this posision
