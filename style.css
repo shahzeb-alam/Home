@@ -368,6 +368,7 @@ section .content {
     align-items: center;
     position: relative;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .box .percent {
