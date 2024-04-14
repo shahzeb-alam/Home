@@ -128,9 +128,8 @@
     background-color: #1b1b1b;
     height: 100vh;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   section .title {
     max-width: 60%;
@@ -328,7 +327,7 @@ section .subtitle span {
     }
   }
 section .content {
-    min-height: 30vh;
+    min-height: 35vh;
     margin: 20px;
     padding: 10px;
     color: #fff;
@@ -339,7 +338,7 @@ section .content {
     text-align: justify;
     border: 2px solid #f7ca18;
     border-radius: 15px;
-    transform: translateY(-100px);
+    transform: translateY(-150px);
 }
 /*Skills Content*/
 
@@ -349,7 +348,7 @@ section .content {
     justify-content: space-evenly;
     padding-top: 0px;
     height: 55%;
-    transform: translateY(-35px);
+    transform: translateY(-100px);
     overflow-y: scroll;
 }
 .container::-webkit-scrollbar {
@@ -368,7 +367,7 @@ section .content {
     align-items: center;
     position: relative;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .box .percent {
