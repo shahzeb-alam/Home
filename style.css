@@ -349,7 +349,6 @@ section .content {
     justify-content: space-evenly;
     padding-top: 0px;
     height: 55%;
-    justify-content: center;
     transform: translateY(-35px);
     overflow-y: scroll;
 }
