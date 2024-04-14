@@ -328,7 +328,7 @@ section .subtitle span {
     }
   }
 section .content {
-    min-height: 35vh;
+    min-height: 30vh;
     margin: 20px;
     padding: 10px;
     color: #fff;
