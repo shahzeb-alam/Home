@@ -419,24 +419,24 @@ section .content {
   animation: progress 2s ease-out;
 }
 .box .percent .svg1 circle:nth-child(2) {
-  stroke-dashoffset:calc(440 - (440 * 80) / 100);
+  stroke-dashoffset:calc(480 - (440 * 80) / 100);
 }
 .box .percent .svg2 circle:nth-child(2) {
-  stroke-dashoffset:calc(440 - (440 * 90) / 100);
+  stroke-dashoffset:calc(480 - (440 * 90) / 100);
 }
 .box .percent .svg3 circle:nth-child(2) {
-  stroke-dashoffset:calc(440 - (440 * 60) / 100);
+  stroke-dashoffset:calc(480 - (440 * 60) / 100);
 }
 .box .percent .svg4 circle:nth-child(2) {
-  stroke-dashoffset:calc(440 - (440 * 70) / 100);
+  stroke-dashoffset:calc(480 - (440 * 70) / 100);
 }
 .box .percent .svg5 circle:nth-child(2) {
-  stroke-dashoffset:calc(440 - (440 * 50) / 100);
+  stroke-dashoffset:calc(480 - (440 * 50) / 100);
 }
 
 @keyframes progress {
-   0% {stroke-dashoffset:calc(440 - (440 * 10) / 100);}
-   80% {stroke-dashoffset:calc(440 - (440 * 100) / 100);}
+   0% {stroke-dashoffset:calc(480 - (440 * 10) / 100);}
+   80% {stroke-dashoffset:calc(480 - (440 * 100) / 100);}
 }
 
 .box .percent .num {
@@ -635,6 +635,9 @@ section .content {
     width: 160px;
     text-align: center;
     margin-top: 25px;
+}
+.box .text {
+    font-size: 17px;
 }
 .card {
     width: 85%;
