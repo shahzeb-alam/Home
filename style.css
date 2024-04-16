@@ -574,6 +574,9 @@ nav li {
     transform: none;
     transition: all .5s;
 }
+nav li.active {
+    background: none;
+}
 nav li.slide {
     display: none;
 }
