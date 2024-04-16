@@ -632,7 +632,9 @@ section .content {
     transform: none;
 }
 .box {
-    width: 180px;
+    width: 160px;
+    text-align: center;
+    margin-top: 25px;
 }
 .card {
     width: 85%;
