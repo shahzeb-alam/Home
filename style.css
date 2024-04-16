@@ -613,6 +613,9 @@ section .title span:last-child {
 section .title span a{
     margin-left: 0;
 }
+section .subtitle span {
+    font-size: 7vw;
+}
 section .content {
     transform: translateY(-50px);
 }
