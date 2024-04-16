@@ -607,7 +607,7 @@ section .title span {
 }
 section .title span:last-child {
     margin-left: 0px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
 section .title span a{
@@ -618,6 +618,7 @@ section .subtitle span {
 }
 section .content {
     transform: translateY(-50px);
+    font-size: 14px;
 }
 .container {
     height: 75%;
