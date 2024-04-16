@@ -634,7 +634,7 @@ section .content {
 .box {
     width: 160px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .box .text {
     font-size: 17px;
