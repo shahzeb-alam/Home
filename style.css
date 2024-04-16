@@ -490,8 +490,8 @@ section .content {
   color: #e3e3e3;
 }
 .tiles {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   background: #222;
   padding: 10px;
   margin: 10px;
@@ -507,7 +507,7 @@ section .content {
 }
 .tiles i{
   font-size: 35px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .tiles p{
   font-size: 18px;
@@ -602,12 +602,19 @@ nav li.active::after {
 .show {
     right: 15px;
 }
+section {
+    justify-content: flex-start;
+}
+section .content {
+    min-height: 60vh;
+    margin: auto 20px;
+}
 section .title span {
-    font-size: 11vw;
+    font-size: 11.5vw;
 }
 section .title span:last-child {
     margin-left: 0px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.5;
 }
 section .title span a{
@@ -621,17 +628,16 @@ section .content {
     font-size: 14px;
 }
 .container {
-    height: 75%;
-    transform: translateY(-25px);
+    height: 90%;
+    transform: none;
+}
+.box {
+    width: 200px;
 }
 .card {
     width: 45%;
 }
 .tiles {
-    width: 125px;
-    height: 125px;
-}
-.tiles i {
-    margin-top: 25px;
+margin: 10px;
 }
 }
