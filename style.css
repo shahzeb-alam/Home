@@ -498,6 +498,7 @@ section .content {
   margin-top: 50px;
   border: 2px solid #f7ca18;
   border-radius: 10px;
+  transition: all 1s;
 }
 .tiles i, .tiles p{
   display: block;
@@ -600,4 +601,33 @@ nav li.active::after {
 }
 .show {
     right: 15px;
-}}
+}
+section .title span {
+    font-size: 11vw;
+}
+section .title span:last-child {
+    margin-left: 0px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+section .title span a{
+    margin-left: 0;
+}
+section .content {
+    transform: translateY(-50px);
+}
+.container {
+    height: 75%;
+    transform: translateY(-25px);
+}
+.card {
+    width: 45%;
+}
+.tiles {
+    width: 125px;
+    height: 125px;
+}
+.tiles i {
+    margin-top: 25px;
+}
+}
