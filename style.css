@@ -534,20 +534,17 @@ section .content {
     color: #f7ca18;
     transition: all .5s;
   }
-  .menu-bar:hover {
+.menu-bar:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
 nav {
+    display: block;
     background-color: #0b0b0b;
     position: relative;
     height: fit-content;
     overflow: hidden;
-    z-index: 99;
-    display: none;
-}
-.show {
-    display: block;
+    z-index: 999;
 }
 nav ul {
     display: flex;
@@ -560,6 +557,7 @@ nav ul {
     margin-top: 70px;
     flex-direction: column;
     width: 170px;
+    transition: all .5s;
 }
 nav li {
     margin: 5px 0;
@@ -574,26 +572,29 @@ nav li {
     letter-spacing: 2px;
     font-weight: 800;
     transform: none;
+    transition: all .5s;
 }
 nav li.slide {
     display: none;
 }
-nav li:nth-child(1) {
+.show li:nth-child(1) {
     animation: byRight 1s;
 }
-nav li:nth-child(2) {
+.show li:nth-child(2) {
     animation: byRight 1.2s;
 }
-nav li:nth-child(3) {
+.show li:nth-child(3) {
     animation: byRight 1.4s;
 }
-nav li:nth-child(4) {
+.show li:nth-child(4) {
     animation: byRight 1.6s;
 }
-nav li:nth-child(5) {
+.show li:nth-child(5) {
     animation: byRight 1.8s;
 }
 nav li.active::after {
     display: none;
 }
-}
+.show {
+    right: 15px;
+}}
