@@ -13,6 +13,38 @@
   });
   
 })(jQuery);
+
+// Toggle Menu Script
+const menuButton = document.getElementById("menuButton");
+const mobileMenu = document.getElementById("mobileMenu");
+
+// Function to toggle the mobile menu
+function toggleMenu() {
+    // Toggle the 'show' class on the mobile menu
+    mobileMenu.classList.toggle("show");
+    
+    // Update the menu button icon
+    if (mobileMenu.classList.contains("show")) {
+        menuButton.innerHTML = '&times;'; // Change to 'X' icon
+        mobileMenu.setAttribute('aria-hidden', 'false'); // Accessibility attribute
+    } else {
+        menuButton.innerHTML = '&#9776;'; // Change back to hamburger icon
+        mobileMenu.setAttribute('aria-hidden', 'true'); // Accessibility attribute
+    }
+}
+
+// Add event listener to the menu button
+menuButton.addEventListener("click", toggleMenu);
+
+// Hide the menu when clicking outside the menu or button
+document.addEventListener("click", (event) => {
+    const isClickInsideMenuOrButton = mobileMenu.contains(event.target) || menuButton.contains(event.target);
+
+    if (!isClickInsideMenuOrButton && mobileMenu.classList.contains("show")) {
+        toggleMenu();
+    }
+});
+
 // set up text to print, each item in array is new line
 var aText = new Array(
 "Hello! I'm Shahzeb Alam, a seasoned Web Designer and WordPress Developer with a passion for crafting engaging digital experiences. With a solid background in SEO, Graphic Designing, and Microsoft Office, I bring a versatile skill set to every project. My journey began during my graduation, and over the past 4 years, I've honed my expertise, spending 3 years as a successful Freelancer before transitioning to the corporate sector and delivered more than 50 successful projects to my clients. Now based in Noida, I continue to thrive in the dynamic world of web design and development, delivering innovative solutions that exceed expectations. Let's collaborate and bring your vision to life!"
