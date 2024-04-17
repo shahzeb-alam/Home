@@ -644,9 +644,14 @@ section .content {
     font-size: 17px;
 }
 .card {
-    width: 85%;
+    width: 45%;
 }
 .tiles {
 margin: 10px;
+}
+}
+@media screen and (max-width: 768px) {
+.card {
+    width: 45%;
 }
 }
