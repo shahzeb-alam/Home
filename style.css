@@ -650,8 +650,8 @@ section .content {
 margin: 10px;
 }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 430px) {
 .card {
-    width: 45%;
+    width: 85%;
 }
 }
