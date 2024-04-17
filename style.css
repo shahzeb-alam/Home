@@ -549,15 +549,19 @@ nav {
 }
 nav ul {
     display: flex;
+    background: #000000de;
     position: fixed;
     top: 0;
     left: unset;
     right: -200px;
     list-style-type: none;
     padding: 0;
+    padding-right: 15px;
     margin-top: 70px;
     flex-direction: column;
-    width: 170px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    align-items: flex-end;
     transition: all .5s;
 }
 nav li {
