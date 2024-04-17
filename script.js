@@ -44,6 +44,18 @@ document.addEventListener("click", (event) => {
         toggleMenu();
     }
 });
+// Hide the mobile menu when clicking on an item in the nav-bar
+mobileMenu.addEventListener("click", (event) => {
+    const targetElement = event.target;
+    
+    // Check if the clicked element is a link in the menu
+    if (targetElement.tagName === "A") {
+        // If the link is clicked, hide the mobile menu
+        if (mobileMenu.classList.contains("show")) {
+            toggleMenu();
+        }
+    }
+});
 
 // set up text to print, each item in array is new line
 var aText = new Array(
