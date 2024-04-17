@@ -558,6 +558,7 @@ nav ul {
     margin-top: 70px;
     flex-direction: column;
     align-items: flex-end;
+    width: unset;
     transition: all .5s;
 }
 nav li {
