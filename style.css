@@ -645,8 +645,9 @@ section .content {
     font-size: 14px;
 }
 .container {
-    height: 90%;
-    transform: translateY(-10px);
+    margin: auto;
+    height: max-content;
+    transform: translateY(-50px);
 }
 .box {
     width: 160px;
@@ -660,7 +661,9 @@ section .content {
     width: 45%;
 }
 .tiles {
-margin: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
 }
 }
 @media screen and (max-width: 430px) {
