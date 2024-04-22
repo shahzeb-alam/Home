@@ -18,6 +18,7 @@
   }
   .menu-bar {
     display: none;
+    z-index: 99;
   }
   .logo {
     position: fixed;
@@ -25,6 +26,7 @@
   .logo img{
     width: 360px;
     margin: 20px 40px;
+    z-index: 1;
   }
   nav {
     width: 100%;
@@ -530,7 +532,7 @@ section .content {
 }
 @media screen and (max-width: 768px) {
    .logo img {
-    width: 280px;
+    width: 320px;
    }
   .menu-bar {
     display: block;
