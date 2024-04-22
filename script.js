@@ -49,7 +49,7 @@ mobileMenu.addEventListener("click", (event) => {
     const targetElement = event.target;
     
     // Check if the clicked element is a link in the menu
-    if (targetElement.tagName === "A") {
+    if (targetElement.tagName === "LI") {
         // If the link is clicked, hide the mobile menu
         if (mobileMenu.classList.contains("show")) {
             toggleMenu();
