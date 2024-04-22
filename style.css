@@ -529,6 +529,9 @@ section .content {
   color: #222;
 }
 @media screen and (max-width: 768px) {
+   .logo img {
+    width: 280px;
+   }
   .menu-bar {
     display: block;
     width: 40px;
