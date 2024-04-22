@@ -645,9 +645,9 @@ section .content {
     font-size: 14px;
 }
 .container {
-    margin: auto;
-    height: max-content;
-    transform: translateY(-50px);
+    margin-top: 40px;
+    height: -webkit-fill-available;
+    transform: translateY(0px);
 }
 .box {
     width: 160px;
