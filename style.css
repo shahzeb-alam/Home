@@ -646,7 +646,8 @@ section .content {
 }
 .container {
     align-content: flex-start;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
     height: -webkit-fill-available;
     transform: translateY(0px);
 }
