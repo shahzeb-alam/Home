@@ -645,7 +645,7 @@ section .content {
     font-size: 14px;
 }
 .container {
-    margin-top: 40px;
+    margin: 20px 0;
     height: -webkit-fill-available;
     transform: translateY(0px);
 }
