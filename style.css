@@ -600,4 +600,7 @@ section .content {
 .card {
     width: 85%;
 }
+.skills {
+    padding: 0 6%;
+}
 }
