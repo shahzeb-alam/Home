@@ -353,6 +353,11 @@ section .subtitle span {
       width: 30px;
     }
   }
+#pph-hireme {
+   text-align: right;
+   padding: 0 20px;
+   margin-bottom: -25vh;
+}
 section .content {
     min-height: 35vh;
     margin: 20px;
