@@ -59,13 +59,7 @@ mobileMenu.addEventListener("click", (event) => {
 
 // set up text to print, each item in array is new line
 var aText = new Array(
-"Hello! I'm Shahzeb Alam, a seasoned Front-end Developer with over 4 years and 6 months of experience in crafting engaging digital experiences. My journey began during my graduation, and since then, I’ve honed my expertise in Design, Development, SEO, and Graphic Designing, bringing a versatile skill set to every project.
-
-Throughout my career, I’ve successfully delivered over 120 web projects, combining my 3 years of freelancing experience with my time in the corporate sector. These projects span a wide range of industries, showcasing my ability to create high-quality, innovative, and user-friendly solutions tailored to diverse client needs.
-
-My passion for web development extends beyond just coding—I take pride in creating websites that are not only visually appealing but also functional, responsive, and optimized for performance. Whether it’s building a website from scratch, optimizing an existing one, or solving complex technical challenges, I’m committed to delivering results that exceed expectations.
-
-Now based in Noida, I continue to thrive in the dynamic world of web design and development. Let’s collaborate and bring your vision to life!"
+"Hello! I'm Shahzeb Alam, a seasoned Front-end Developer with over 4 years and 6 months of experience in crafting engaging digital experiences. My journey began during my graduation, and since then, I’ve honed my expertise in Design, Development, SEO, and Graphic Designing, bringing a versatile skill set to every project.<br/>Throughout my career, I’ve successfully delivered over 120 web projects, combining my 3 years of freelancing experience with my time in the corporate sector. These projects span a wide range of industries, showcasing my ability to create high-quality, innovative, and user-friendly solutions tailored to diverse client needs.<br/>My passion for web development extends beyond just coding—I take pride in creating websites that are not only visually appealing but also functional, responsive, and optimized for performance. Whether it’s building a website from scratch, optimizing an existing one, or solving complex technical challenges, I’m committed to delivering results that exceed expectations.<br/>Now based in Noida, I continue to thrive in the dynamic world of web design and development. Let’s collaborate and bring your vision to life!"
 );
 var iSpeed = 50; // time delay of print out
 var iIndex = 0; // start printing array at this posision
