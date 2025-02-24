@@ -59,7 +59,13 @@ mobileMenu.addEventListener("click", (event) => {
 
 // set up text to print, each item in array is new line
 var aText = new Array(
-"Hello! I'm Shahzeb Alam, a seasoned Front-end Developer with a passion for crafting engaging digital experiences. With a solid background in Design, Development, SEO and Graphic Designing, I bring a versatile skill set to every project. My journey began during my graduation, and over the past 4 years, I have honed my expertise, spending 3 years as a successful Freelancer before transitioning to the corporate sector and delivered more than 50 successful projects to my clients. Now based in Noida, I continue to thrive in the dynamic world of web design and development, delivering innovative solutions that exceed expectations. Let's collaborate and bring your vision to life!"
+"Hello! I'm Shahzeb Alam, a seasoned Front-end Developer with over 4 years and 6 months of experience in crafting engaging digital experiences. My journey began during my graduation, and since then, I’ve honed my expertise in Design, Development, SEO, and Graphic Designing, bringing a versatile skill set to every project.
+
+Throughout my career, I’ve successfully delivered over 120 web projects, combining my 3 years of freelancing experience with my time in the corporate sector. These projects span a wide range of industries, showcasing my ability to create high-quality, innovative, and user-friendly solutions tailored to diverse client needs.
+
+My passion for web development extends beyond just coding—I take pride in creating websites that are not only visually appealing but also functional, responsive, and optimized for performance. Whether it’s building a website from scratch, optimizing an existing one, or solving complex technical challenges, I’m committed to delivering results that exceed expectations.
+
+Now based in Noida, I continue to thrive in the dynamic world of web design and development. Let’s collaborate and bring your vision to life!"
 );
 var iSpeed = 50; // time delay of print out
 var iIndex = 0; // start printing array at this posision
