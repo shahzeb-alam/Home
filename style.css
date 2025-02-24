@@ -554,12 +554,18 @@ nav li.active::after {
 section {
     justify-content: flex-start;
 }
+section .title {
+    max-width: 80%;
+}
+section .subtitle {
+    max-width: 80%;
+}
 section .content {
     min-height: 60vh;
-    margin: auto 20px;
+    margin: auto 10px;
 }
 section .title span {
-    font-size: 11.5vw;
+    font-size: 13.5vw;
 }
 section .title span:last-child {
     margin-left: 0px;
@@ -573,8 +579,10 @@ section .subtitle span {
     font-size: 7vw;
 }
 section .content {
-    transform: translateY(-50px);
+    transform: translateY(-10px);
     font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
 }
 .container {
     align-content: flex-start;
@@ -605,6 +613,6 @@ section .content {
     width: 85%;
 }
 .skills {
-    padding: 0 6%;
+    padding: 0 1%;
 }
 }
