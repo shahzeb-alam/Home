@@ -142,6 +142,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 10px 20px;
   }
   #Home {
      justify-content: center;
@@ -158,7 +159,6 @@
 section .subtitle {
     max-width: 60%;
     width: 100%;
-    margin: 30px;
     overflow: hidden;
     padding-bottom: 10px;
 }
@@ -366,11 +366,11 @@ section .content {
     font-family: monospace;
     font-size: 16px;
     letter-spacing: 1px;
-    line-height: 1.8;
+    line-height: 1.7;
     text-align: justify;
     border: 2px solid #f7ca18;
     border-radius: 15px;
-    transform: translateY(-150px);
+    transform: translateY(-130px);
 }
 /*Skills Content*/
 
