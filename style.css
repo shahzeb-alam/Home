@@ -160,7 +160,7 @@ section .subtitle {
     max-width: 60%;
     width: 100%;
     overflow: hidden;
-    padding-bottom: 10px;
+    padding: 10px;
 }
   section .title span {
     display: inline-block;
@@ -361,6 +361,7 @@ section .subtitle span {
 section .content {
     min-height: 35vh;
     padding: 10px;
+    margin: 0 10px;
     color: #fff;
     font-family: monospace;
     font-size: 16px;
