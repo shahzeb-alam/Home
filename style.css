@@ -360,7 +360,6 @@ section .subtitle span {
 }
 section .content {
     min-height: 35vh;
-    margin: 20px;
     padding: 10px;
     color: #fff;
     font-family: monospace;
@@ -379,8 +378,8 @@ section .content {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 0px;
-    height: 55%;
-    transform: translateY(-100px);
+    height: 60%;
+    transform: translateY(-115px);
     overflow-y: scroll;
 }
 .container::-webkit-scrollbar {
@@ -391,7 +390,6 @@ section .content {
   scrollbar-width: none;  /* Firefox */
 }
 .skills {
-  padding: 0 10%;
   justify-content: flex-start;
 }
 .skills span{
